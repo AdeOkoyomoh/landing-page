@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.first-section-banner {
+    height: auto;
+    width: 400px;
+}
+
+.header {
+    display: flex;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 28px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header ul li {
+    padding-left: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.main-body .first-section .first-section-text {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+
+.main-body .first-section .first-section-text h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.main-body .first-section .first-section-text p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.services ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.services-header {
+    padding: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+.service-card {
+    width: 200px;
+    font-family: 'Work Sans', sans-serif;
+    height: 200px;
+    flex: 1;
+    border: 3px solid rgb(102 118 242);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.testimonials {
+    background-color: rgb(102 118 242);
+    margin-top: 60px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px;
+}
+
+.testimonial-header {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.testimonial {
+    padding: 20px;
+}
+
+.testimonial h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.testimonial p {
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(102 118 242);
+    padding: 60px;
+}
+
+.contact-card {
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 40px;
+}
+
+.contact-heading {
+    font-size: 30px;
+    color: rgb(102 118 242);
+    margin-bottom: 10px;
+}
+
+.contact-body {
+    font-size: 20px;
+}
+
+.contact-button {
+    background-color: rgb(102 118 242);
+    margin-top: 20px;
+    width: 80px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
